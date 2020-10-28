@@ -1,0 +1,36 @@
+{
+  "name": "ecombd_api",
+  "version": "1.0.0",
+  "description": "opensource headless minimal e-commerce api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyadhuddin/ecombd_api.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "headless",
+    "api",
+    "backend"
+  ],
+  "author": "Riyadh Uddin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riyadhuddin/ecombd_api/issues"
+  },
+  "homepage": "https://github.com/riyadhuddin/ecombd_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "multer": "^1.4.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
